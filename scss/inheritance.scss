@@ -1,0 +1,20 @@
+/* CSS to rooms cost in available rooms section */
+.room1 {
+    font-size: 26px; 
+    font-weight: bold; 
+    margin-left: 23em;
+}
+
+.room2 {
+    font-size: 26px; 
+    font-weight: bold; 
+    margin-left: 20em;
+}
+
+.room3 {
+    @extend .room2;
+}
+
+.room4 {
+    @extend .room2;
+}

@@ -1,0 +1,324 @@
+
+/* To set the flexible length of logos */
+ .logos > div{
+    display: inline-block;
+} 
+
+/* To align the logos in the center */
+.logos div{
+    display: flex;
+    align-items: center;
+}
+
+.black {
+    text-decoration: none;
+    color:black;
+}
+/* To align main title of the page */
+.main {
+    display: flex;
+    align-items: center;
+}
+.main1 {
+    display: flex;
+}
+
+/* To move the favorites section to the margin */
+.favorites {
+    margin-left: 350px;
+}
+
+/* CSS to Globe logo  */
+#logo {
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+/* Color for Turkey and Istanbul at the Top */
+.path .place{
+    color:red;
+    text-decoration: none;
+}
+
+/* Margin for Like and share icons */
+.rr img {
+    margin-left: 80em;
+}
+.like {
+    display: flex;
+}
+
+/* Border to like and share buttons */
+.likeshare1 {
+    border: 1px solid #66CDAA;
+    border-radius: 5px; 
+    margin-left: 30em;
+}
+.likeshare2 {
+    border: 1px solid #66CDAA;
+    border-radius: 5px; 
+}
+
+/* Green Background color for Book now button of the hotel */
+.rr span > button {
+    background-color:mediumaquamarine;
+    border:1px solid mediumaquamarine;
+}
+
+/* CSS to 4.2 rating above hotel images section */
+.rating1 {
+    font-weight: bold;
+    font-size: 80%;
+    border: 1px solid #66CDAA;
+    border-radius: 5px; 
+    background: white;
+}
+.good {
+    font-weight: bold;
+    font-size: 90%;
+}
+.smallreview {
+    font-size: 50%;
+}
+/* Background to view all photos */
+.images {
+    background-color:mediumaquamarine;
+     border:1px solid mediumaquamarine;
+     color: black;
+     float:right;
+     text-decoration: none;
+}
+/* Grid for images section */
+.container {
+    --gap: 5px;
+    --num-cols: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+  }
+  
+  .container>img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-grid-col-2 {
+    grid-column: span 2;
+  }
+  
+  .image-grid-row-2 {
+    grid-row: span 2;
+  }
+
+/* Color to cost of the Hotel/night near main title */
+.cost {
+    font-size: 20px; 
+    font-weight: bold;
+     margin-left: 60em; 
+     color: red;
+}
+/* Red Color to cost of the Hotel/night near main title */
+.cost1 {
+    color: red;
+}
+/* CSS for buttons in overview section */
+.overview button {
+    padding: 40px 40px;
+    text-align: left;
+    color: black;
+    text-decoration: none; 
+    display: inline-block; 
+    margin: 4px 2px; 
+    border: 1px solid #66CDAA;
+    background: white;
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+/* Hover for buttons in overview section */
+.overview button:hover {
+    background-color:  mediumaquamarine;
+    cursor:pointer;
+}
+/* Bold Rating in overview section */
+.rating{
+    font-weight: bold;
+    font-size: 180%;
+  }
+
+.overview > .verygoodrating {
+    background: mediumaquamarine;
+}
+
+/* CSS to stars in overview section */
+.shines {
+    width:20px;
+    height:20px;
+    float:left;
+    margin-bottom: 40px;
+}
+
+/* .availablerooms div {
+    align-items: center;
+    justify-content: center
+} */
+
+/* Width and height of images in available rooms section */
+.availablerooms img {
+    max-width: 3%;
+    max-height: 3%;
+}
+
+/* CSS to Book now button in availablerooms section */
+.availablerooms button {
+    background-color:mediumaquamarine;
+    border:1px solid mediumaquamarine;
+    color:black;
+}
+
+/* CSS to rooms cost in available rooms section */
+.room1 {
+    font-size: 26px; 
+    font-weight: bold; 
+    margin-left: 23em;
+}
+
+.room2 {
+    font-size: 26px; 
+    font-weight: bold; 
+    margin-left: 20em;
+}
+
+.room3 {
+    font-size: 26px; 
+    font-weight: bold; 
+    margin-left: 20em;
+}
+
+.room4 {
+    font-size: 26px; 
+    font-weight: bold;
+     margin-left: 20em;
+}
+/* Margin for view on google maps button in the location section */
+.location button {
+    margin-left: 70em;
+    background-color:mediumaquamarine;
+    border:1px solid mediumaquamarine;
+    color:black;
+}
+
+/* Margin for Give your review Button in review section */
+.review button {
+     margin-left: 80em; 
+     background-color:mediumaquamarine;
+     border:1px solid mediumaquamarine;
+}
+
+/* To reduce font-size of reviews */
+.review .reviews {
+    font-size: 60%;
+}
+ /* .review img {
+    float: left; 
+    margin-right: 2em;
+    width: 50px;
+    height: 50px;
+}  */
+
+/* To align ratings in review section */
+.reviewperson {
+    float: left; 
+    margin-right: 2em;
+}
+
+/* To reduce the size of image in review section */
+.reviewperson > img {
+    width: 50px; 
+    height: 50px;
+}
+/* To make the name and rating bold in review section */
+.reviewname {
+    font-weight: bold; 
+    float: left;
+}
+
+/* To add margin to flag in review section */
+.flag1 {
+    margin-left: 38em;
+}
+.flag2 {
+    margin-left: 32em;
+}
+.flag3 {
+    margin-left: 39em;
+}
+.flag4 {
+    margin-left: 38em;
+}
+.flag5 {
+    margin-left: 39em;
+}
+
+/* To align the text in center to view more reviews */
+.morereviews {
+    text-align: center;
+}
+.morereviews a {
+   text-decoration: none;
+}
+
+/* To add background color to subscription form */
+.form {
+    background-color: rgb(177, 233, 215);
+}
+
+/* To float the image right in subscription form */
+.form img {
+    float:right;
+}
+
+/* To reduce the font size of Get Inspired text in subscription form */
+.form p {
+    font-size: 70%
+}
+
+.form {
+    width: 60vw;
+    height: 30vh;
+    border-radius: 25px;
+    border: 1px solid rgba(231, 225, 225, 0.8);
+    margin:20px;
+    padding:10px;
+}
+
+/* Adds green background color to the footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: mediumaquamarine;
+    gap:20px;
+    width:120%;
+}
+
+/* Aligns the list in footer */
+.footer-list {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+
+}
+
+.footerlogo {
+    float:right;
+    display: inline;
+
+}
+
+
+ 

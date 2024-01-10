@@ -1,0 +1,9 @@
+/* Width and height of images in available rooms section */
+$sizes: 3%, 3%;
+
+@each $size in $sizes{
+    .availablerooms img {
+        max-width: $size;
+        max-height: $size;
+}
+}

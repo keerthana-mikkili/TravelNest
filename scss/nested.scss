@@ -1,0 +1,38 @@
+//Subscription form
+.form {
+    // width: 60vw;
+    // height: 30vh;
+    // border-radius: 25px;
+    // border: 1px solid rgba(231, 225, 225, 0.8);
+    // margin:20px;
+    // padding:10px;
+
+    width: 60vw;
+    height: 26vh;
+    border-radius: 25px;
+    border: 1px solid rgba(231, 225, 225, 0.8);
+    margin:20px;
+    padding:10px;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* To add background color to subscription form */
+    background-color: rgb(177, 233, 215);
+    /* To float the image right in subscription form */
+    img {
+        float:right;
+    }
+    /* To reduce the font size of Get Inspired text in subscription form */
+    p {
+        font-size: 70%
+    }
+}
+
+/* To align the text in center to view more reviews */
+.morereviews {
+    text-align: center;
+ a {
+   text-decoration: none;
+   }
+}

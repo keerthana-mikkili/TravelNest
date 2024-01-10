@@ -1,0 +1,25 @@
+/* To display the Amenities list */
+ul {
+    display: inline-block;
+    /* vertical-align: top; */
+    padding-left: 200px; 
+    list-style: none;
+  }
+
+/* To add color to 24 more text in Amenities list */
+li > a {
+    color:red;
+    text-decoration: none;
+}
+
+/* To add background and color to Subscribe button in the form */
+form button {
+    color:white; 
+    background:black;height:20px;
+}
+
+nav {
+    position: fixed;
+    top:0;
+}
+
